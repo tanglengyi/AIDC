@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "name": "",
+    "industry": "",
+    "project_type": "large_tob_solution",
+    "description": "",
+    "organization_context": "",
+    "target_customer_segments": [],
+    "target_regions": [],
+    "deployment_modes": [],
+    "start_date": "",
+    "target_launch_date": "",
+    "owner": ""
+  },
+  "completion_profile": "large_tob_solution",
+  "objectives": [
+    {
+      "id": "OBJ-001",
+      "statement": "",
+      "metric": "",
+      "baseline": null,
+      "target": null,
+      "deadline": "",
+      "evidence_status": "hypothesis"
+    }
+  ],
+  "stakeholders": [
+    {
+      "role": "project_sponsor",
+      "name": "",
+      "responsibility": "",
+      "decision_rights": []
+    }
+  ],
+  "constraints": {
+    "budget": "",
+    "timeline": "",
+    "team": "",
+    "technology": [],
+    "compliance": [],
+    "deployment": [],
+    "data": []
+  },
+  "source_locations": [],
+  "required_integrations": [],
+  "mandatory_deliverables": [],
+  "optional_deliverables": [],
+  "notes": ""
+}
