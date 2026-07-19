@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "name": "AIDC算力中心运营管理与Kubernetes智能运维平台",
+    "industry": "AIDC / 智算中心 / 云原生基础设施",
+    "project_type": "large_tob_solution",
+    "description": "连接机房设施、GPU资源、Kubernetes/Slurm调度、AI任务、租户运营、计量计费和智能运维，形成算力生产与经营闭环。",
+    "organization_context": "面向政府智算中心、IDC运营商、算力租赁公司及大型企业私有智算中心。",
+    "target_customer_segments": [
+      "政府或城市智算中心",
+      "电信与IDC运营商",
+      "算力租赁与云服务企业",
+      "大型企业私有智算中心",
+      "高校与科研机构"
+    ],
+    "target_regions": ["中国"],
+    "deployment_modes": ["私有化部署", "混合部署"],
+    "start_date": "2026-07-19",
+    "target_launch_date": "",
+    "owner": "产品负责人"
+  },
+  "completion_profile": "large_tob_solution",
+  "objectives": [
+    {
+      "id": "OBJ-001",
+      "statement": "统一纳管设施、GPU、集群、任务、租户和运营对象",
+      "metric": "核心资源纳管率",
+      "baseline": null,
+      "target": ">=95%",
+      "deadline": "一期验收",
+      "evidence_status": "product_target"
+    },
+    {
+      "id": "OBJ-002",
+      "statement": "缩短典型Kubernetes与GPU故障定位时间",
+      "metric": "典型故障MTTR",
+      "baseline": "待客户调研",
+      "target": "较基线降低50%",
+      "deadline": "上线后3个月",
+      "evidence_status": "hypothesis"
+    },
+    {
+      "id": "OBJ-003",
+      "statement": "提高GPU资源有效利用率并降低资源碎片",
+      "metric": "GPU利用率与资源碎片率",
+      "baseline": "待接入真实集群数据",
+      "target": "待立项确认",
+      "deadline": "上线后6个月",
+      "evidence_status": "unresolved"
+    }
+  ],
+  "stakeholders": [
+    {
+      "role": "project_sponsor",
+      "name": "待确认",
+      "responsibility": "批准项目目标、预算与范围",
+      "decision_rights": ["立项", "预算", "重大范围变化"]
+    },
+    {
+      "role": "product_owner",
+      "name": "待确认",
+      "responsibility": "产品规划、需求优先级和验收",
+      "decision_rights": ["产品范围", "需求优先级", "版本规划"]
+    },
+    {
+      "role": "architecture_owner",
+      "name": "待确认",
+      "responsibility": "总体架构、系统边界和技术风险",
+      "decision_rights": ["技术选型", "集成方式", "非功能方案"]
+    }
+  ],
+  "constraints": {
+    "budget": "待客户与项目发起方确认",
+    "timeline": "按一期业务闭环确定，不以全量功能一次性交付",
+    "team": "需要产品、架构、后端、前端、测试、实施、SRE、安全和售前协同",
+    "technology": [
+      "Kubernetes",
+      "Slurm",
+      "GPU与BMC/Redfish",
+      "Prometheus/Grafana/日志与Trace系统",
+      "计量计费与客户运营系统"
+    ],
+    "compliance": ["数据不出域", "操作审计", "多租户隔离", "等保或信创要求待确认"],
+    "deployment": ["私有化", "离线安装能力", "高可用", "升级与回滚"],
+    "data": ["Secret默认不采集", "敏感日志脱敏", "计量数据可追溯"]
+  },
+  "source_locations": [
+    "AIDC算力中心知识库/00_阅读索引与文档地图.md",
+    "AIDC算力中心知识库/01_AIDC算力中心基础认知手册.md",
+    "AIDC算力中心知识库/10_项目文档完整度审计与补齐路线图.md",
+    "AIDC算力中心知识库/16_Kubernetes智能运维平台解决方案级PRD.md"
+  ],
+  "required_integrations": [
+    "DCIM/BMS",
+    "BMC/Redfish",
+    "Kubernetes",
+    "Slurm",
+    "Prometheus/日志/Trace",
+    "CMDB/ITSM",
+    "CRM/ERP/BSS/财务系统",
+    "统一身份认证"
+  ],
+  "mandatory_deliverables": [
+    "行业与机会分析",
+    "BP/BRD/MRD",
+    "用户研究与购买委员会",
+    "竞品深度分析",
+    "PID与Roadmap",
+    "总体解决方案",
+    "Kubernetes智能运维PRD",
+    "SRS/SID与集成方案",
+    "测试/UAT/上线/回滚",
+    "运营指标与复盘"
+  ],
+  "optional_deliverables": [
+    "完整MLOps PRD",
+    "完整MaaS PRD",
+    "招投标技术规格书",
+    "客户定制数据迁移方案"
+  ],
+  "notes": "本示例中的收益指标属于产品目标或待验证假设，不代表已经上线取得的真实结果。"
+}

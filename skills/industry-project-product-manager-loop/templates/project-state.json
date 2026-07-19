@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "project_name": "",
+  "completion_profile": "large_tob_solution",
+  "current_phase": "phase_0_intake",
+  "loop_status": "continue",
+  "last_updated": "",
+  "phase_scores": {
+    "phase_0_intake": 0,
+    "phase_1_industry_opportunity": 0,
+    "phase_2_business_market": 0,
+    "phase_3_user_research": 0,
+    "phase_4_competitive_strategy": 0,
+    "phase_5_initiation_planning": 0,
+    "phase_6_solution_prd": 0,
+    "phase_7_engineering_integration": 0,
+    "phase_8_test_launch": 0,
+    "phase_9_operations_review": 0
+  },
+  "deliverables": [
+    {
+      "id": "DEL-001",
+      "name": "",
+      "path": "",
+      "phase": "",
+      "status": "missing",
+      "quality_gate": "",
+      "owner": "",
+      "last_reviewed": ""
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-001",
+      "claim": "",
+      "type": "hypothesis",
+      "source": "",
+      "source_date": "",
+      "confidence": "low",
+      "applies_to": "",
+      "verification_needed": true
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "A-001",
+      "statement": "",
+      "impact": "",
+      "validation_plan": "",
+      "owner": "",
+      "status": "open"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "D-001",
+      "decision": "",
+      "options_considered": [],
+      "rationale": "",
+      "owner": "",
+      "date": "",
+      "status": "pending"
+    }
+  ],
+  "risks": [
+    {
+      "id": "R-001",
+      "risk": "",
+      "probability": "medium",
+      "impact": "medium",
+      "mitigation": "",
+      "owner": "",
+      "status": "open"
+    }
+  ],
+  "quality_gates": {
+    "gate_a_opportunity": "not_started",
+    "gate_b_customer_user": "not_started",
+    "gate_c_strategy": "not_started",
+    "gate_d_initiation": "not_started",
+    "gate_e_requirements": "not_started",
+    "gate_f_engineering": "not_started",
+    "gate_g_launch": "not_started",
+    "gate_h_review": "not_started"
+  },
+  "next_actions": [
+    {
+      "priority": 1,
+      "action": "",
+      "expected_output": "",
+      "blocked_by": [],
+      "human_required": false
+    }
+  ],
+  "human_decisions_required": [],
+  "termination": {
+    "success_conditions_met": false,
+    "human_decision_required": false,
+    "evidence_exhausted": false,
+    "reason": ""
+  }
+}
